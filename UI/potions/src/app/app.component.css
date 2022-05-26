@@ -1,0 +1,77 @@
+.container{
+    padding: 3em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+
+.potion-container{
+    display: flex;
+    width: 100%;
+    padding-top: 5em;
+}
+
+.potion-form{
+    width: 5 em;
+    padding: 2em;
+}
+
+form .form-group{
+    margin-bottom:  1em;
+}
+
+form label{
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+form input[type="text"],form input[type="number"]{
+width: 100%;
+padding: 0.5em 0.3em;
+margin-bottom: 0.5 em;
+
+}
+
+form button{
+    background-color: black;
+    padding:  0.5em 1em;
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+    border: none;
+    outline: none;
+    border-radius: 0.2em;
+    color: aliceblue;
+}
+
+.potion-row{
+    width: 100%;
+    display: flex;
+    margin-bottom: 0.2em;
+}
+
+.potion-row-details{
+    background-color: aliceblue;
+    flex-grow: 1;
+    padding: 0.4em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 0.2em;
+    cursor: pointer;
+}
+.potion-row-action{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.potion-row-action a{
+    display:block;
+    cursor: pointer;
+    padding: 1em;
+    background-color: aquamarine;
+    color: aliceblue;
+    
+}

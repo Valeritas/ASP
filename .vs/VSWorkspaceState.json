@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\API",
+    "\\API\\Potions",
+    "\\API\\Potions\\Potions.API",
+    "\\API\\Potions\\Potions.API\\Controllers"
+  ],
+  "SelectedNode": "\\API\\Potions\\Potions.API\\Controllers\\PotionsController.cs",
+  "PreviewInSolutionExplorer": false
+}
